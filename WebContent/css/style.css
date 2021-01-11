@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+.typing {
+    width: 7em;
+    /*white-space: nowrap;*/
+    border-right: 5px solid transparent;
+    animation: typing 3s steps(11, end), blink-caret .75s infinite;
+    overflow: hidden;
+    
+    color: #F8F8FF;
+	font-size:45px;
+	font-family: Andale Mono, monospace;
+	font-weight: 700;
+}
+/* 列印效果 */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 7em; }
+}
+/* 游標閃 */
+@keyframes blink-caret {
+  from, to{ box-shadow: 3px 0 0 0 transparent; }
+  50% { box-shadow: 3px 0 0 0; }
+}
+
+@Keyframes donut-spin {
+   0% {
+     transform: rotate(0deg);
+   }
+
+   100% {
+     transform: rotate(360deg);
+   }
+}
+
+.donut {
+   display: inline-block;
+   animation: donut-spin 2s linear infinite;
+}
+
+
+form{
+	margin:0px; 
+	display:inline;
+}
+
+#text {
+	padding:10px 20px;
+	border: 2px solid #FFFFFF;
+	border-radius:10px;
+	width:60%;
+	line-height:20px;
+	background-color:#273952;
+	background-image: url(../img/Search.png);
+	background-position: 10px 7px; 
+	background-repeat: no-repeat;
+	padding-left: 40px;	
+	font-size:16px;
+	font-family:Optima, sans-serif;
+	color: white;
+	letter-spacing: 3px;
+}
+
+button{
+	border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font: bold 13px Arial, Helvetica, sans-serif;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+	background-color: #cccccc;
+    color: white;
+}
+
+
+
+#btm2 {
+	background: #9370DB;
+    color: white;
+}
+
+#btm2:hover{
+	background-color: #cccccc;
+    color: white;
+}
+
+#btm3 {
+	background: #DDA0DD;
+    color: white;
+}
+
+#btm3:hover{
+	background-color: #cccccc;
+    color: white;
+}
+
+#btm4 {
+	background: #da6177;
+    color: white;
+}
+
+#btm4:hover{
+	background-color: #cccccc;
+    color: white;
+}
+
+
+
+
+
+
+
